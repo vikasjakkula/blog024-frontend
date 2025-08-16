@@ -38,6 +38,7 @@ function App() {
               <Route path="/follow" element={<Dashboard />} />
             </Routes>
           </main>
+          <Analytics/>
         </div>
       </Router>
     </ThemeProvider>
